@@ -1,0 +1,18 @@
+footer{
+    padding: 10px 10px 0 10px;
+    background:rgb(5, 72, 88);
+    margin-bottom: 0;
+    margin-top: 20px;
+    color:white;
+}
+footer a{
+    color: white;
+}
+.card-hotel{
+    flex: 1 130px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+}
+.footer-addres-icon{
+    padding-right: 10px;
+}

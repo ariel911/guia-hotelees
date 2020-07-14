@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/Reservar.css">
+  <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+  <title>Guia Hotel</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:rgb(5, 72, 88);">
+    <a class="navbar-brand" href="#">Hoteles</a>
+    <button button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Inicios</a>
+        </li>
+        <li class="nav-item">
+          <a href="./Nosotros.html" class="nav-link">Nosotros</a>
+        </li>
+        <li class="nav-item ">
+          <a href="./precios.html" class="nav-link">Precios</a>
+        </li>
+        <li class="nav-item">
+          <a href="Terminos.html" class="nav-link">Terminos y Condiciones</a>
+        </li>
+        <li class="nav-item active">
+          <a href="./Reservar.html" class="nav-link">Reservar</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+  <div class="jumbotron">
+    <h1>Ingrese sus datos</h1>
+    <form>
+      <div class="form-row">
+        <div class="form group col-sm-6">
+          <label for="Nombre">Nombre</label>
+          <input type="text" class="form-control" placeholder="Ingrese su Nombre">
+        </div>
+        <div class="form group col-sm-6">
+          <label for="Apellido">Apellido</label>
+          <input type="text" class="form-control" placeholder="Ingrese su Apellido">
+        </div>
+        <div class="form group col-sm-6"> <br>
+          <label for="email">Dirección de correo electrónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email"
+            placeholder="Ingrese su Correo">
+        </div>
+        <div class="form group col-sm-6"><br>
+          <label for="Telefono">Celular</label>
+          <input type="number" class="form-control" placeholder="Ingrese su Numero de Celular">
+        </div>
+        <div class="form-group col-sm-5"><br>
+          <label for="Hotel">Hoteles</label>
+          <select id="Hotel" class="form-control">
+            <option selected>Hotel Sucre</option>
+            <option selected>Hotel Barcelona</option>
+            <option selected>Hotel Rio de Janeiro</option>
+            <option selected>Hotel Lima</option>
+            <option selected>Hotel La Paz</option>
+            <option selected>Hotel Cordoba</option>
+            <option selected>..</option>
+            
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="Comentario">Comentarios</label>
+        <textarea class="form-control" id="comentario1" rows="5"></textarea>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          Quiero que me contacten
+        </label>
+      </div><br>
+      <button class="btn " type="submit" style="background-color:rgb(5, 72, 88); color:white">Enviar</button>
+    </form>
+  </div>
+
+
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column">
+        <a href="http://www.facebook.com">Facebook</a>
+        <a href="http://www.twiter.com">Twiter</a>
+        <a href="http://www.Instagram.com">Instagram</a>
+        <a href="http://www.google.com">Google</a>
+      </div>
+      <div class="col-sm-4">
+        <address>
+          <h3> Oficina Central</h3>
+          <p><span class="oi oi-home footer-addres-icon "></span> Sucre #405 Chuquisaca Bolivia</p>
+          <p><span class="oi oi-phone footer-addres-icon "></span> 75457842</p>
+          <p><span class="oi oi-inbox footer-addres-icon  "></span> contacto@guiaHotoles.com</p>
+        </address>
+      </div>
+
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="http://www.facebook.com">Facebook</a>
+        <a href="http://www.twiter.com">Twiter</a>
+        <a href="http://www.Instagram.com">Instagram</a>
+        <a href="http://www.google.com">Google</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+</body>
+
+</html>
