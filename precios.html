@@ -41,90 +41,157 @@
     </div>
 
   </nav>
- <div class="jumbotron">
-  <div class="container">
-
-    <div class="table-responsive">
+  <div class="jumbotron">
+    <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item " aria-current="page"> <a href="./index.html">Inicio</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Precios</li></li>
+          <li class="breadcrumb-item active" aria-current="page">Precios</li>
+          </li>
         </ol>
       </nav>
-    <table class="table table-bordered"> 
-      <thead>
-        <tr>
-          <th scope="col" class="tit">Calidad</th>
-          <th scope="col" class="tit">H. Sucre</th>
-          <th scope="col" class="tit">H. Lima</th>
-          <th scope="col" class="tit">H. Janeiro</th>
-          <th scope="col" class="tit">H. barcelona</th>
-          <th scope="col" class="tit">H. Cordoba</th>
-          <th scope="col" class="tit">H. La Paz</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><ion-icon name="star-half-outline"></ion-icon>
-          </td>
-          <td>$ 100</td>
-          <td>$ 120</td>
-          <td>$ 130</td>
-          <td>$ 150</td>
-          <td>$ 180</td>
-          <td>$ 190</td>
-        </tr>
-        <tr>
-          <td><ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon></td>
-          <td>$ 200</td>
-          <td>$ 220</td>
-          <td>$ 230</td>
-          <td>$ 350</td>
-          <td>$ 280</td>
-          <td>$ 290</td>
-        </tr>
-        <tr>
-          <td><ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon></td>
-          <td>$ 300</td>
-          <td>$ 320</td>
-          <td>$ 330</td>
-          <td>$ 350</td>
-          <td>$ 380</td>
-          <td>$ 390</td>
-        </tr>
-        <tr>
-          <td><ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon></td>
-          <td>$ 400</td>
-          <td>$ 420</td>
-          <td>$ 430</td>
-          <td>$ 450</td>
-          <td>$ 480</td>
-          <td>$ 490</td>
-        </tr>
-        <tr>
-          <td><ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon>
-            <ion-icon name="star-half-outline"></ion-icon></td>
-          <td>$ 500</td>
-          <td>$ 520</td>
-          <td>$ 530</td>
-          <td>$ 550</td>
-          <td>$ 580</td>
-          <td>$ 590 </td>
-        </tr>
-      </tbody>
-    </table>
+      <ul class="nav nav-tabs" id="mytab" role="tablist" >
+        <li class="nav-item">
+          <a class="nav-link active" style="color: black;" href="#compara" id="Compara-tab" aria-selected="true" role="tab" aria-controls="compara" data-toggle="tab">Compara</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link " style="color: black;" id="Tarjetas-tab" href="#Tarjetas" aria-selected="false" aria-controls="tarjetas" data-toggle="tab" role="tab">Tarjetas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: black;" href="#comentario" data-toggle="tab" aria-controls="comentarios" role="tab" aria-selected="false">Comentarios</a>
+      </ul>
+      <div class="tab-content" id="mytab">
+        <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="Compara-tab">
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col" class="tit">Calidad</th>
+                  <th scope="col" class="tit">H. Sucre</th>
+                  <th scope="col" class="tit">H. Lima</th>
+                  <th scope="col" class="tit">H. Janeiro</th>
+                  <th scope="col" class="tit">H. barcelona</th>
+                  <th scope="col" class="tit">H. Cordoba</th>
+                  <th scope="col" class="tit">H. La Paz</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="oi oi-star"></span></td>
+                  <td>$ 100</td>
+                  <td>$ 120</td>
+                  <td>$ 130</td>
+                  <td>$ 150</td>
+                  <td>$ 180</td>
+                  <td>$ 190</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span></td>
+                  <td>$ 200</td>
+                  <td>$ 220</td>
+                  <td>$ 230</td>
+                  <td>$ 350</td>
+                  <td>$ 280</td>
+                  <td>$ 290</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span></td>
+                  <td>$ 300</td>
+                  <td>$ 320</td>
+                  <td>$ 330</td>
+                  <td>$ 350</td>
+                  <td>$ 380</td>
+                  <td>$ 390</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span></td>
+                  <td>$ 400</td>
+                  <td>$ 420</td>
+                  <td>$ 430</td>
+                  <td>$ 450</td>
+                  <td>$ 480</td>
+                  <td>$ 490</td>
+                </tr>
+                <tr>
+                  <td><span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span></td>
+                  <td>$ 500</td>
+                  <td>$ 520</td>
+                  <td>$ 530</td>
+                  <td>$ 550</td>
+                  <td>$ 580</td>
+                  <td>$ 590 </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="Tarjetas" role="tabpanel" aria-labelledby="Tarjetas-tab">
+         
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Tarjeta Basica
+                    </button>
+                  </h2>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Tarjeta VIP
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     Tarjeta Black
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="comentario" role="tabpanel" aria-labelledby="comentario-tab">
+                      <h1>esta es la mejor foto que tengo a tu lado </h1>
+                      <img src="./img/cora.jpg" alt="" style="width: 300px; height:400px">
+        </div>
+      </div>
+
+    </div>
+
   </div>
-  </div>
-</div>
   <footer>
     <div class="row">
       <div class="col-sm-4 d-flex flex-column">
@@ -136,9 +203,9 @@
       <div class="col-sm-4">
         <address>
           <h3> Oficina Central</h3>
-          <p> <ion-icon name="home-outline"></ion-icon>Sucre #405 Chuquisaca Bolivia</p>
-          <p><ion-icon name="call-outline"></ion-icon> 75457842</p>
-          <p> <ion-icon name="mail-outline"></ion-icon> contacto@guiaHotoles.com</p>
+          <p><span class="oi oi-home footer-addres-icon "></span> Sucre #405 Chuquisaca Bolivia</p>
+          <p><span class="oi oi-phone footer-addres-icon "></span> 75457842</p>
+          <p><span class="oi oi-inbox footer-addres-icon  "></span> contacto@guiaHotoles.com</p>
         </address>
       </div>
 
