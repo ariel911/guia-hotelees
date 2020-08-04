@@ -1,0 +1,50 @@
+/*ultilizando sass*/
+.barra {
+  background: #3c3d68;
+}
+
+footer {
+  padding: 10px 10px 0 10px;
+  background: #3c3d68;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+}
+
+.carousel-inner {
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+footer a {
+  color: white;
+}
+
+.card-hotel {
+  flex: 1 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-reserva {
+  width: 100%;
+  background: #3c3d68;
+  color: white;
+  border-radius: 0;
+}
+
+.footer-addres-icon {
+  padding-right: 10px;
+}
+
+.nav-link {
+  background: #3c3d68;
+}
+
+/*# sourceMappingURL=style.css.map */

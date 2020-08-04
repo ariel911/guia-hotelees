@@ -1,0 +1,39 @@
+$principal:rgb(60, 61, 104); /*ultilizando sass*/
+@mixin margenes($top , $bottom , $left ,$right){
+    margin-top: $top;
+    margin-bottom: $bottom;
+    margin-left: $left;
+    margin-right: $right;
+}
+.barra{
+    background: $principal;
+}
+
+footer{
+    padding: 10px 10px 0 10px;
+    background: $principal;
+    @include margenes(20px,0,0,0);
+    color:white;
+}
+.carousel-inner{
+    @include margenes(50px, 0,0 ,0 );
+  }
+footer a{
+    color: white;
+}
+.card-hotel{
+    flex: 1 130px;
+    @include margenes(10px,10px,10px,10px);
+}
+.btn-reserva {
+    width: 100%;
+    background:$principal; 
+    color: white;
+    border-radius: 0;
+}
+.footer-addres-icon{
+    padding-right: 10px;
+}
+.nav-link{
+    background: $principal;
+}
